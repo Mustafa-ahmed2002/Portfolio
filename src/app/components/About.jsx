@@ -14,14 +14,14 @@ const About = () => {
         <div>
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg ">
-            I'm a Frontend Developer with a knack for crafting interactive and
-            responsive web applications. My toolkit includes JavaScript, React,
-            NextJS, HTML, CSS, and Git. Eager to learn and grow, I've also
-            delved into the world of full-stack development, working with
-            technologies like Node.js, Express, PostgreSQL, and Prisma. As a
-            quick learner and a team player, I'm always excited to collaborate
-            on projects that push boundaries and create amazing user
-            experiences.
+            I&apos;m a Frontend Developer with a knack for crafting interactive
+            and responsive web applications. My toolkit includes JavaScript,
+            React, NextJS, HTML, CSS, and Git. Eager to learn and grow,
+            I&apos;ve also delved into the world of full-stack development,
+            working with technologies like Node.js, Express, PostgreSQL, and
+            Prisma. As a quick learner and a team player, I&apos;m always
+            excited to collaborate on projects that push boundaries and create
+            amazing user experiences.
           </p>
         </div>
       </div>

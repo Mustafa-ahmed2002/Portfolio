@@ -34,9 +34,9 @@ const MainSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl ">
-            I'm a Frontend Wizard conjuring magic in the realm of user
+            I&apos;m a Frontend Wizard conjuring magic in the realm of user
             interfaces. Crafting enchanting web experiences with a touch of
-            brilliance. Let's create magic together! ✨🚀
+            brilliance. Let&apos;s create magic together! ✨🚀
           </p>
           <div>
             <button

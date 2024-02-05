@@ -2,16 +2,30 @@ import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description,gitUrl,previewUrl }) => {
+const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div className="flex flex-col">
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
-        <div className="overlay  flex items-center justify-center absolute top-0 right-0 left-0 h-full w-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 cursor-pointer">
-          <Link rel="noopener noreferrer" target="_blank" className="h-14 m-2 w-14 border-2 relative rounded-full border-[ADB7BE] hover:border-white group/link" href={gitUrl}><CodeBracketIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white"/></Link>
-          <Link rel="noopener noreferrer" target="_blank" className="h-14 w-14 border-2 relative rounded-full border-[ADB7BE] hover:border-white group/link" href={previewUrl}><EyeIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white"/></Link>
+        <div className="overlay flex items-center justify-center absolute top-0 right-0 left-0 h-full w-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 cursor-pointer">
+          <Link
+            rel="noopener noreferrer"
+            target="_blank"
+            className="h-14 m-2 w-14 border-2 relative rounded-full border-[ADB7BE] hover:border-white group/link"
+            href={gitUrl}
+          >
+            <CodeBracketIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white" />
+          </Link>
+          <Link
+            rel="noopener noreferrer"
+            target="_blank"
+            className="h-14 w-14 border-2 relative rounded-full border-[ADB7BE] hover:border-white group/link"
+            href={previewUrl}
+          >
+            <EyeIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE]  cursor-pointer group-hover/link:text-white" />
+          </Link>
         </div>
       </div>
       <div className="flex-1 mt-2 text-white rounded-b-xl bg-[#181818] px-4 overflow-hidden">

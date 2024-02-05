@@ -32,14 +32,16 @@ const Email = () => {
       style={{ marginBottom: 0 }}
     >
       <div>
-        <h5 className="text-2xl font-bold my-2 text-white">Let's Connect</h5>
+        <h5 className="text-2xl font-bold my-2 text-white">
+          Let&apos;s Connect
+        </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm actively seeking exciting opportunities to contribute my skills
-          and creativity to innovative projects. 💼 If you or your company are
-          on the lookout for a motivated and skilled frontend developer, I'd
-          love to connect. I bring a solid foundation in both frontend and
-          backend technologies, coupled with a commitment to crafting visually
-          appealing and user-friendly applications.
+          I&apos;m actively seeking exciting opportunities to contribute my
+          skills and creativity to innovative projects. 💼 If you or your
+          company are on the lookout for a motivated and skilled frontend
+          developer, I&apos;d love to connect. I bring a solid foundation in
+          both frontend and backend technologies, coupled with a commitment to
+          crafting visually appealing and user-friendly applications.
         </p>
         <div className="socials flex flex-row gap-2 ">
           <Link
