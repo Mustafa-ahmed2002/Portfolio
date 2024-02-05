@@ -46,7 +46,7 @@ const MainSection = () => {
               Contact Me
             </button>
             <a
-              href="https://drive.usercontent.google.com/download?id=1GZia-9Kx7ncswP8IRMQeGz2luSy8eY7Z&export=download&authuser=0"
+              href="https://drive.usercontent.google.com/download?id=1MzJ1UayozgO2ZiefNxCQRy6Nh4FCPVub&export=download&authuser=0"
               download="Mustafa.pdf"
             >
               <button className="px-6 py-3  w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
