@@ -23,7 +23,7 @@ const Skills = () => {
       <div className="flex flex-wrap justify-center items-center mb-10 max-w-full scroll-mt-28 text-center sm:mb-40 gap-8 ">
         {skillsList.map((skill, i) => (
           <div className="text-lg text-gray-800 mb-3" key={i}>
-            <p className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80">
+            <p className="bg-white borderBlack rounded-xl px-5 py-3 bg-white/10 text-white/80">
               {skill.title}
             </p>
           </div>
