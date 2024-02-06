@@ -19,7 +19,7 @@ const skillsList = [
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="text-4xl text-center mb-10">Skills</h1>
+      <h1 className="text-4xl text-white text-center mb-10">Skills</h1>
       <div className="flex flex-wrap justify-center items-center mb-10 max-w-full scroll-mt-28 text-center sm:mb-40 gap-8 ">
         {skillsList.map((skill, i) => (
           <div className="text-lg text-gray-800 mb-3" key={i}>

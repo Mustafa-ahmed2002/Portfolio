@@ -50,7 +50,7 @@ const Projects = () => {
   };
   return (
     <section id="projects">
-      <h2 className="flex items-center justify-center pb-10 text-4xl">
+      <h2 className="flex text-white items-center justify-center pb-10 text-4xl">
         My Projects
       </h2>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md-gap-12">
