@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import MenuOverlay from "./MenuOverlay";
-
+// passing data of title and path to the NavLink component to make it accessable
 const navLinks = [
   { title: "Home", path: "#home" },
   { title: "About", path: "#about" },
@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav
       role="navigation"
-      className="fixed mx-auto border border-[#33353F] top-0 right-0 left-0 z-[10] bg-[#121212] bg-opacity-100 "
+      className="fixed mx-auto border border-[#33353F] top-0 right-0 left-0 z-[10] bg-[#121212] bg-opacity-90 "
     >
       <div className="flex container lg:py-3 flex-wrap items-center justify-between mx-auto px-4 py-2 ">
         <Link
